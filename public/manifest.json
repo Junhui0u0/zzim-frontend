@@ -1,0 +1,35 @@
+{
+  "short_name": "zzim",
+  "name": "zzim - 나만의 찜 리스트",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo196.png",
+      "type": "image/png",
+      "sizes": "196x196"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "share_target": {
+    "action": "/share-target/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
